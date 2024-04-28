@@ -1,6 +1,8 @@
 import Navbar from "@/components/Navbar";
-import { ConnectToMongoDB } from "@/services/mongoDB";
+import AuthProvider from "@/providers/AuthProvider";
 import { Inter } from "next/font/google";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,12 +13,14 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children }) {
-    await ConnectToMongoDB();
     return (
         <html lang='en'>
             <body>
-                <Navbar />
-                <main className='py-8'>{children}</main>
+                <AuthProvider>
+                    <Navbar />
+                    <main className='py-8'>{children}</main>
+                    <ToastContainer position='bottom-right' />
+                </AuthProvider>
             </body>
         </html>
     );

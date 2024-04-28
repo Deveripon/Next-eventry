@@ -1,8 +1,12 @@
+import { getSingleEventDetails } from "@/DBQueries/events/events";
+import { transformObjectId } from "@/utils";
 import Image from "next/image";
 import Link from "next/link";
 import ActionButtons from "../common/ActionButtons";
 
-const EventCard = ({ event }) => {
+const EventCard = async ({ id }) => {
+    const event = await getSingleEventDetails(id);
+
     return (
         <div className='overflow-hidden rounded-md bg-[#242526]'>
             <Image
@@ -26,7 +30,11 @@ const EventCard = ({ event }) => {
                     <span>{event?.going_ids?.length} Going</span>
                 </div>
 
-                <ActionButtons />
+                <ActionButtons
+                    eventId={event?.id}
+                    interestedId={transformObjectId(event?.interested_ids)}
+                    goingId={transformObjectId(event?.going_ids)}
+                />
             </div>
         </div>
     );

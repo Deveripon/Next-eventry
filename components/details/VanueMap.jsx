@@ -1,4 +1,4 @@
-import { getSingleEventDetails } from "@/app/api/events/events";
+import { getSingleEventDetails } from "@/DBQueries/events/events";
 
 const VanueMap = async ({ id }) => {
     const event = await getSingleEventDetails(id);

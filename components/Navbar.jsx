@@ -1,6 +1,7 @@
 import LogoImage from "@/public/assets/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
+import AuthButtons from "./auth/AuthButtons";
 
 const Navbar = () => {
     return (
@@ -13,12 +14,13 @@ const Navbar = () => {
                             alt='Eventry'
                             className='h-[45px]'
                             width={133}
-                            height={133}
+                            height={45}
                         />
                     </Link>
                 </div>
 
                 <ul className='flex gap-4 text-[#9C9C9C]'>
+                    <AuthButtons />
                     <li>About</li>
                     <li>Contact Us</li>
                 </ul>

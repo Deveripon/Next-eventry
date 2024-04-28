@@ -1,6 +1,7 @@
-import { getSingleEventDetails } from "@/app/api/events/events";
+import { getSingleEventDetails } from "@/DBQueries/events/events";
 import Image from "next/image";
 import ActionButtons from "../common/ActionButtons";
+import { transformObjectId } from "@/utils";
 
 const HeroSection = async ({ id }) => {
     const event = await getSingleEventDetails(id);
@@ -9,6 +10,8 @@ const HeroSection = async ({ id }) => {
             <div className='bg-gradient-to-b relative w-full h-[450px] from-slate-200/20 to-slate-800/30'>
                 <Image
                     fill
+                    placeholder='blur'
+                    blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNUMv9fDwADtAHZWfONvwAAAABJRU5ErkJggg=='
                     src={event?.imageUrl}
                     alt='Event 1'
                     className='h-[450px] mx-auto object-cover'
@@ -28,7 +31,12 @@ const HeroSection = async ({ id }) => {
                     </div>
                 </div>
 
-                <ActionButtons formDetails={true} />
+                <ActionButtons
+                    formDetails={true}
+                    eventId={event?.id}
+                    interestedId={transformObjectId(event?.interested_ids)}
+                    goingId={transformObjectId(event?.going_ids)}
+                />
             </div>
         </section>
     );
