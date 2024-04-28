@@ -6,11 +6,27 @@
         "name": "Web Summit",
         "details": "Web Summit is an annual technology conference held in Lisbon, Portugal, considered one of the largest tech events in the world.",
         "location": "Lisbon, Portugal",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263923/youtube/eventry/Web-Summit-2023-highlights_pdmals.jpg",
-        "interested_ids": ["wq435w3", "w5rw34543"],
-        "going_ids": ["45w345w43", "w4544"],
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932266/Web-Summit-2023-highlights_lkr0xa.jpg",
+        "interested_ids": [
+            "453w45435",
+            "346e456546",
+            {
+                "$oid": "66293c04a8a6bb482d18a185"
+            },
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            }
+        ],
+        "going_ids": [
+            {
+                "$oid": "662e7053b44c7c52bdd757e6"
+            }
+        ],
         "swags": ["Free T-Shirts", "Netowrking", "Free WIFI"],
-        "__v": 31
+        "__v": 58
     },
     {
         "_id": {
@@ -19,10 +35,27 @@
         "name": "CES (Consumer Electronics Show)",
         "details": "CES is an annual trade show organized by the Consumer Technology Association. It showcases the latest innovations in consumer electronics and technology.",
         "location": "Las Vegas, USA",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263924/youtube/eventry/CES_obrqg5.webp",
-        "interested_ids": [],
-        "going_ids": [],
-        "__v": 28,
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932267/CES_uk32iu.webp",
+        "interested_ids": [
+            {
+                "$oid": "66293c04a8a6bb482d18a185"
+            },
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            },
+            {
+                "$oid": "662e7053b44c7c52bdd757e6"
+            }
+        ],
+        "going_ids": [
+            {
+                "$oid": "662e7053b44c7c52bdd757e6"
+            }
+        ],
+        "__v": 39,
         "swags": []
     },
     {
@@ -32,10 +65,30 @@
         "name": "Mobile World Congress",
         "details": "Mobile World Congress is the largest mobile event in the world, bringing together the latest innovations and leading-edge technology from over 2,400 leading companies.",
         "location": "Barcelona, Spain",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/Mobile-World-Congress-MWC_nutca0.jpg",
-        "interested_ids": [],
-        "going_ids": [],
-        "__v": 2,
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932266/Mobile-World-Congress-MWC_axjx60.jpg",
+        "interested_ids": [
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            }
+        ],
+        "going_ids": [
+            {
+                "$oid": "66293c04a8a6bb482d18a185"
+            },
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            },
+            {
+                "$oid": "662e7053b44c7c52bdd757e6"
+            }
+        ],
+        "__v": 8,
         "swags": []
     },
     {
@@ -45,10 +98,10 @@
         "name": "Google I/O",
         "details": "Google I/O is an annual developer conference held by Google. It showcases the latest in technology and product innovation from Google.",
         "location": "Mountain View, USA",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/Google-IO_vij3kz.webp",
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932266/Google-IO_qh1uro.webp",
         "interested_ids": [],
         "going_ids": [],
-        "__v": 1,
+        "__v": 5,
         "swags": []
     },
     {
@@ -58,9 +111,18 @@
         "name": "Microsoft Build",
         "details": "Microsoft Build is an annual conference event held by Microsoft, aimed at software engineers and web developers.",
         "location": "Seattle, USA",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/MS-Build_rdbtxc.jpg",
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932267/MS-Build_vfjknc.jpg",
         "interested_ids": [],
-        "going_ids": []
+        "going_ids": [
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            }
+        ],
+        "__v": 2,
+        "swags": []
     },
     {
         "_id": {
@@ -69,9 +131,31 @@
         "name": "AWS re:Invent",
         "details": "AWS re:Invent is an annual learning conference hosted by Amazon Web Services for the global cloud computing community.",
         "location": "Las Vegas, USA",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263921/youtube/eventry/AWS_reInvent_by_VISEO_vb8cnk.jpg",
-        "interested_ids": [],
-        "going_ids": []
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932267/AWS_reInvent_by_VISEO_rlfuwb.jpg",
+        "interested_ids": [
+            {
+                "$oid": "66293c04a8a6bb482d18a185"
+            },
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            }
+        ],
+        "going_ids": [
+            {
+                "$oid": "66293c04a8a6bb482d18a185"
+            },
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            }
+        ],
+        "__v": 6,
+        "swags": []
     },
     {
         "_id": {
@@ -80,9 +164,22 @@
         "name": "TechCrunch Disrupt",
         "details": "TechCrunch Disrupt is an annual conference hosted by TechCrunch, featuring the latest in technology and startup innovation.",
         "location": "San Francisco, USA",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263921/youtube/eventry/techcrunch-disrupt_pk8gd1.jpg",
-        "interested_ids": [],
-        "going_ids": []
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932267/techcrunch-disrupt_yndvlj.jpg",
+        "interested_ids": [
+            {
+                "$oid": "66293c04a8a6bb482d18a185"
+            }
+        ],
+        "going_ids": [
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            }
+        ],
+        "__v": 11,
+        "swags": []
     },
     {
         "_id": {
@@ -91,9 +188,22 @@
         "name": "Collision",
         "details": "Collision is a tech conference produced by the team behind Web Summit. It brings together the people and companies redefining the global tech industry.",
         "location": "Toronto, Canada",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/collision_wbfwcc.jpg",
-        "interested_ids": [],
-        "going_ids": []
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932267/collision_wiyd3v.jpg",
+        "interested_ids": [
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            }
+        ],
+        "going_ids": [
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            }
+        ],
+        "__v": 7,
+        "swags": []
     },
     {
         "_id": {
@@ -102,9 +212,18 @@
         "name": "IFA (Internationale Funkausstellung Berlin)",
         "details": "IFA is the world's leading trade show for consumer electronics and home appliances, held annually in Berlin, Germany.",
         "location": "Berlin, Germany",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/IFA1_ee0qwu.jpg",
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932267/IFA1_oo1och.jpg",
         "interested_ids": [],
-        "going_ids": []
+        "going_ids": [
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            },
+            {
+                "$oid": "662e6b58b44c7c52bdd75716"
+            }
+        ],
+        "__v": 2,
+        "swags": []
     },
     {
         "_id": {
@@ -113,9 +232,15 @@
         "name": "GITEX Technology Week",
         "details": "GITEX Technology Week is an annual tech event held in Dubai, United Arab Emirates, showcasing the latest trends and innovations across various sectors.",
         "location": "Dubai, UAE",
-        "imageUrl": "https://res.cloudinary.com/atapas/image/upload/v1713263922/youtube/eventry/Gitex_obi5ai.jpg",
+        "imageUrl": "https://res.cloudinary.com/devripon/image/upload/v1713932267/Gitex_tygzzs.jpg",
         "interested_ids": [],
-        "going_ids": []
+        "going_ids": [
+            {
+                "$oid": "662d27fd4dbd98dd0e3f5c29"
+            }
+        ],
+        "__v": 5,
+        "swags": []
     }
 ]
 

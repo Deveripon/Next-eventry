@@ -6,9 +6,23 @@ import {
 } from "@/utils";
 import mongoose from "mongoose";
 
-export async function getAllEvents() {
+export async function getAllEvents(query) {
     await connectToMongoDB();
-    const allEvents = await Events?.find().lean();
+    let allEvents = [];
+
+    //if data searched by search query
+    if (query) {
+        const regex = new RegExp(query, "i");
+        allEvents = await Events.find({
+            $or: [
+                { name: { $regex: regex } },
+                { details: { $regex: regex } },
+                { location: { $regex: regex } },
+            ],
+        });
+    } else {
+        allEvents = await Events?.find().lean();
+    }
     return transformMongoIdInArray(allEvents);
 }
 

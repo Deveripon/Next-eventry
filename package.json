@@ -9,14 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@plaiceholder/next": "^3.0.0",
     "@tailwindcss/typography": "^0.5.12",
     "js-cookie": "^3.0.5",
     "mongoose": "^8.3.2",
     "next": "14.2.2",
+    "plaiceholder": "^3.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-toastify": "^10.0.5",
-    "resend": "^3.2.0"
+    "resend": "^3.2.0",
+    "sharp": "^0.33.3"
   },
   "devDependencies": {
     "eslint": "^8",

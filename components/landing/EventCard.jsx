@@ -1,20 +1,25 @@
 import { getSingleEventDetails } from "@/DBQueries/events/events";
+import EventSchemaScript from "@/meta/EventSchemaScript";
 import { transformObjectId } from "@/utils";
+import { getBlurData } from "@/utils/blurGenerator";
 import Image from "next/image";
 import Link from "next/link";
 import ActionButtons from "../common/ActionButtons";
 
 const EventCard = async ({ id }) => {
     const event = await getSingleEventDetails(id);
-
+    const { base64 } = await getBlurData(event?.imageUrl);
     return (
         <div className='overflow-hidden rounded-md bg-[#242526]'>
+            <EventSchemaScript event={event} />
             <Image
                 src={event?.imageUrl}
                 alt='Event 1'
                 className='w-full'
                 width={400}
                 height={200}
+                placeholder='blur'
+                blurDataURL={base64}
             />
 
             <div className='p-3'>
