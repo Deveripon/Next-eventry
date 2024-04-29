@@ -1,4 +1,4 @@
-import LogoImage from "@/public/assets/logo.svg";
+import LogoImage from "@/public/eventry.jpeg";
 import Image from "next/image";
 import Link from "next/link";
 import AuthButtons from "./auth/AuthButtons";
